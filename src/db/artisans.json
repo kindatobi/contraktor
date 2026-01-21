@@ -1,0 +1,307 @@
+[
+  {
+    "id": "1",
+    "name": "Marcus Johnson",
+    "trade": "Plumber",
+    "location": "Brooklyn, NY",
+    "rating": 4.9,
+    "hourlyRate": 85,
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "bio": "Licensed master plumber with 15+ years of experience. Specializing in residential and commercial plumbing installations, repairs, and emergency services. EPA certified and fully insured.",
+    "portfolio": [
+      {
+        "id": "p1-1",
+        "title": "Modern Bathroom Renovation",
+        "description": "Complete bathroom remodel including new fixtures, tile work, and water-efficient installations",
+        "imageUrl": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800",
+        "completedDate": "2024-11-20"
+      },
+      {
+        "id": "p1-2",
+        "title": "Kitchen Plumbing Upgrade",
+        "description": "Installed new sink, dishwasher connections, and upgraded water filtration system",
+        "imageUrl": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800",
+        "completedDate": "2024-10-15"
+      },
+      {
+        "id": "p1-3",
+        "title": "Emergency Pipe Repair",
+        "description": "24-hour emergency service for burst pipe in commercial building",
+        "imageUrl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800",
+        "completedDate": "2024-12-05"
+      }
+    ],
+    "availability": "available"
+  },
+  {
+    "id": "2",
+    "name": "Sarah Martinez",
+    "trade": "Electrician",
+    "location": "Austin, TX",
+    "rating": 4.8,
+    "hourlyRate": 95,
+    "avatar": "https://i.pravatar.cc/150?img=47",
+    "bio": "Master electrician certified in residential and commercial electrical systems. Expert in smart home installations, panel upgrades, and renewable energy solutions.",
+    "portfolio": [
+      {
+        "id": "p2-1",
+        "title": "Smart Home Electrical System",
+        "description": "Complete smart home wiring with automated lighting, security, and climate control",
+        "imageUrl": "https://images.unsplash.com/photo-1558002038-1055907df827?w=800",
+        "completedDate": "2024-12-10"
+      },
+      {
+        "id": "p2-2",
+        "title": "Solar Panel Installation",
+        "description": "Residential solar panel system with battery backup integration",
+        "imageUrl": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800",
+        "completedDate": "2024-09-22"
+      }
+    ],
+    "availability": "busy"
+  },
+  {
+    "id": "3",
+    "name": "David Chen",
+    "trade": "Carpenter",
+    "location": "Seattle, WA",
+    "rating": 4.7,
+    "hourlyRate": 75,
+    "avatar": "https://i.pravatar.cc/150?img=33",
+    "bio": "Custom carpentry and woodworking specialist. Creating beautiful, functional pieces for homes and businesses. 12 years of experience in fine woodworking and furniture making.",
+    "portfolio": [
+      {
+        "id": "p3-1",
+        "title": "Custom Kitchen Cabinets",
+        "description": "Hand-crafted oak cabinets with soft-close mechanisms and custom finish",
+        "imageUrl": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800",
+        "completedDate": "2024-11-01"
+      },
+      {
+        "id": "p3-2",
+        "title": "Built-in Bookshelf Wall",
+        "description": "Floor-to-ceiling custom bookshelf with integrated lighting",
+        "imageUrl": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=800",
+        "completedDate": "2024-10-10"
+      },
+      {
+        "id": "p3-3",
+        "title": "Hardwood Deck Construction",
+        "description": "500 sq ft cedar deck with custom railings and built-in seating",
+        "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+        "completedDate": "2024-08-15"
+      }
+    ],
+    "availability": "available"
+  },
+  {
+    "id": "4",
+    "name": "Jennifer Williams",
+    "trade": "HVAC Technician",
+    "location": "Phoenix, AZ",
+    "rating": 4.9,
+    "hourlyRate": 90,
+    "avatar": "https://i.pravatar.cc/150?img=20",
+    "bio": "EPA certified HVAC specialist with expertise in installation, maintenance, and repair of heating and cooling systems. Energy efficiency consultant for residential and commercial properties.",
+    "portfolio": [
+      {
+        "id": "p4-1",
+        "title": "Central AC Installation",
+        "description": "High-efficiency central air conditioning system for 3,000 sq ft home",
+        "imageUrl": "https://images.unsplash.com/photo-1635096174897-577ef37c6e80?w=800",
+        "completedDate": "2024-12-15"
+      },
+      {
+        "id": "p4-2",
+        "title": "Commercial HVAC Upgrade",
+        "description": "Complete HVAC system replacement for office building with smart controls",
+        "imageUrl": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800",
+        "completedDate": "2024-09-30"
+      }
+    ],
+    "availability": "available"
+  },
+  {
+    "id": "5",
+    "name": "Robert Taylor",
+    "trade": "Painter",
+    "location": "Denver, CO",
+    "rating": 4.6,
+    "hourlyRate": 55,
+    "avatar": "https://i.pravatar.cc/150?img=15",
+    "bio": "Professional painting contractor specializing in interior and exterior residential painting. Expert in color consultation, surface preparation, and decorative finishes.",
+    "portfolio": [
+      {
+        "id": "p5-1",
+        "title": "Exterior House Painting",
+        "description": "Complete exterior paint job with premium weather-resistant paint",
+        "imageUrl": "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800",
+        "completedDate": "2024-11-25"
+      },
+      {
+        "id": "p5-2",
+        "title": "Interior Color Transformation",
+        "description": "Multi-room interior painting with custom color palette",
+        "imageUrl": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800",
+        "completedDate": "2024-10-20"
+      },
+      {
+        "id": "p5-3",
+        "title": "Decorative Wall Mural",
+        "description": "Custom hand-painted mural for children's playroom",
+        "imageUrl": "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=800",
+        "completedDate": "2024-09-05"
+      }
+    ],
+    "availability": "unavailable"
+  },
+  {
+    "id": "6",
+    "name": "Angela Rodriguez",
+    "trade": "Landscaper",
+    "location": "Portland, OR",
+    "rating": 4.8,
+    "hourlyRate": 70,
+    "avatar": "https://i.pravatar.cc/150?img=45",
+    "bio": "Landscape design and maintenance professional with a focus on sustainable, eco-friendly gardens. Certified in xeriscaping and native plant landscaping.",
+    "portfolio": [
+      {
+        "id": "p6-1",
+        "title": "Backyard Garden Oasis",
+        "description": "Complete backyard transformation with native plants and water features",
+        "imageUrl": "https://images.unsplash.com/photo-1558904541-efa843a96f01?w=800",
+        "completedDate": "2024-10-28"
+      },
+      {
+        "id": "p6-2",
+        "title": "Front Yard Xeriscaping",
+        "description": "Drought-resistant landscape design with decorative rock and succulents",
+        "imageUrl": "https://images.unsplash.com/photo-1584479898061-15742e14f50d?w=800",
+        "completedDate": "2024-08-12"
+      }
+    ],
+    "availability": "available"
+  },
+  {
+    "id": "7",
+    "name": "Michael O'Brien",
+    "trade": "Roofer",
+    "location": "Boston, MA",
+    "rating": 4.7,
+    "hourlyRate": 80,
+    "avatar": "https://i.pravatar.cc/150?img=52",
+    "bio": "Licensed roofing contractor with 18 years of experience. Specializing in roof repairs, replacements, and installations for residential properties. Storm damage expert.",
+    "portfolio": [
+      {
+        "id": "p7-1",
+        "title": "Asphalt Shingle Replacement",
+        "description": "Complete roof replacement with architectural shingles and new underlayment",
+        "imageUrl": "https://images.unsplash.com/photo-1632498594156-e62c1f5e7fbd?w=800",
+        "completedDate": "2024-11-18"
+      },
+      {
+        "id": "p7-2",
+        "title": "Storm Damage Repair",
+        "description": "Emergency roof repair after severe weather damage",
+        "imageUrl": "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=800",
+        "completedDate": "2024-12-01"
+      },
+      {
+        "id": "p7-3",
+        "title": "Skylight Installation",
+        "description": "Custom skylight installation with waterproof flashing",
+        "imageUrl": "https://images.unsplash.com/photo-1615873968403-89e068629265?w=800",
+        "completedDate": "2024-09-14"
+      }
+    ],
+    "availability": "busy"
+  },
+  {
+    "id": "8",
+    "name": "Lisa Thompson",
+    "trade": "Tile Installer",
+    "location": "Miami, FL",
+    "rating": 4.9,
+    "hourlyRate": 65,
+    "avatar": "https://i.pravatar.cc/150?img=38",
+    "bio": "Certified tile installation specialist with expertise in ceramic, porcelain, and natural stone. Creating beautiful, durable surfaces for kitchens, bathrooms, and outdoor spaces.",
+    "portfolio": [
+      {
+        "id": "p8-1",
+        "title": "Luxury Bathroom Tilework",
+        "description": "Custom marble tile installation with intricate mosaic details",
+        "imageUrl": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=800",
+        "completedDate": "2024-12-08"
+      },
+      {
+        "id": "p8-2",
+        "title": "Kitchen Backsplash Design",
+        "description": "Modern subway tile backsplash with custom grout color",
+        "imageUrl": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=800",
+        "completedDate": "2024-10-25"
+      }
+    ],
+    "availability": "available"
+  },
+  {
+    "id": "9",
+    "name": "James Wilson",
+    "trade": "Electrician",
+    "location": "Chicago, IL",
+    "rating": 4.5,
+    "hourlyRate": 88,
+    "avatar": "https://i.pravatar.cc/150?img=68",
+    "bio": "Commercial and residential electrician specializing in code compliance, safety inspections, and energy-efficient lighting solutions. Available for emergency services 24/7.",
+    "portfolio": [
+      {
+        "id": "p9-1",
+        "title": "Electrical Panel Upgrade",
+        "description": "200-amp service panel replacement with circuit reorganization",
+        "imageUrl": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800",
+        "completedDate": "2024-11-30"
+      },
+      {
+        "id": "p9-2",
+        "title": "LED Lighting Retrofit",
+        "description": "Energy-efficient LED lighting installation throughout commercial space",
+        "imageUrl": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800",
+        "completedDate": "2024-09-18"
+      }
+    ],
+    "availability": "available"
+  },
+  {
+    "id": "10",
+    "name": "Patricia Garcia",
+    "trade": "Plumber",
+    "location": "San Diego, CA",
+    "rating": 4.8,
+    "hourlyRate": 82,
+    "avatar": "https://i.pravatar.cc/150?img=29",
+    "bio": "Experienced plumber specializing in eco-friendly plumbing solutions, water conservation systems, and tankless water heater installations. Licensed and bonded.",
+    "portfolio": [
+      {
+        "id": "p10-1",
+        "title": "Tankless Water Heater Install",
+        "description": "Energy-efficient tankless water heater replacement with recirculation pump",
+        "imageUrl": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800",
+        "completedDate": "2024-12-12"
+      },
+      {
+        "id": "p10-2",
+        "title": "Bathroom Fixture Upgrade",
+        "description": "Low-flow toilet and faucet installations for water conservation",
+        "imageUrl": "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800",
+        "completedDate": "2024-10-05"
+      },
+      {
+        "id": "p10-3",
+        "title": "Whole-House Repiping",
+        "description": "Complete copper to PEX repiping for 2-story home",
+        "imageUrl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800",
+        "completedDate": "2024-08-20"
+      }
+    ],
+    "availability": "busy"
+  }
+]
