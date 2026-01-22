@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Contraktor - Artisan Marketplace
 
 A responsive responsive web application connecting customers with skilled local artisans. Built with React, TypeScript, and Vite.
@@ -86,3 +87,7 @@ src/
 ├── store/        # Global state (Zustand)
 └── utils/        # Helper functions
 ```
+=======
+# contraktor
+artisan marketplace
+>>>>>>> 8aa560a52658d30e4c50223e492aeb3e857539cd
