@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Contraktor - Artisan Marketplace
 
 A responsive responsive web application connecting customers with skilled local artisans. Built with React, TypeScript, and Vite.
@@ -51,14 +50,14 @@ A responsive responsive web application connecting customers with skilled local 
   - `features/`: Domain-specific components (Artisans, Profile, Admin).
   - `components/`: Generic shared components (Layout, inputs).
   - `pages/`: Route controllers that assemble features.
-- **Debounced Search**: Implemented a custom `useDebounce` hook to prevent excessive filtering operations during user input.
+- **Debounced Search**: Implemented a custom `useDebounce` hook to prevent excessive filtering operations during user input.(example from next docs)
 
 ### Development Notes
 
-**Context**: My recent work has primarily been in Next.js, so I took a focused crash course on React Query to refresh my knowledge for this project, which contributed to the submission timeline.
+**Context**: My recent work has primarily been in Next.js, so I took a focused crash course on React Query to refresh my knowledge for this project, which contributed to the late submission.
 
-**Architectural Approach**: I adapted the patterns I typically use in Next.js applications (server actions, server components, DAL/queries) to this React SPA context:
-- **Caching Strategy**: In place of Next.js's server-side cache, I implemented React Query with a 30-second `staleTime` for client-side caching. This keeps data fresh while reducing unnecessary refetches.
+**Architectural Approach**: I adapted the patterns I typically use in Next.js applications (server actions, server components, DAL/queries) to this React application context:
+- **Caching Strategy**: In place of Next.js's server-side cache, I implemented React Query with a 30-minutes `staleTime` for client-side caching. This keeps data fresh while reducing unnecessary refetches.
 - **State Management**: Filter state is managed through URL search parameters rather than `useState`, providing better UX through shareable URLs, browser history support, and persistence across page refreshes.
 - **Data Layer**: Separated concerns with a dedicated `services/api.ts` layer and `queries/query.ts` hooks, mirroring the server/client data boundary pattern from Next.js.
 
@@ -67,10 +66,9 @@ A responsive responsive web application connecting customers with skilled local 
 
 ## 🔮 Tradeoffs & Future Improvements (With More Time)
 1. **Real Backend**: Replace the mock service with a real Node.js/Express or Supabase backend.
-2. **Advanced Filtering**: Add multi-select for trades and range sliders for pricing/ratings.
-3. **Authentication**: Implement real user auth (Auth0 or similar) for the Admin dashboard and Request features.
-4. **Testing Coverage**: Expand test suite to cover all pages and edge cases (currently covers core filter logic and form validation).
-5. **Accessibility**: Conduct a full a11y audit (contrast, screen reader testing).
+2. **Authentication**: Implement real user auth (Auth0 or similar) for the Admin dashboard and Request features.
+3. **Testing Coverage**: Expand test suite to cover all pages and edge cases (currently covers core filter logic and form validation).
+4. **Accessibility**: Conduct a full a11y audit (contrast, screen reader testing).
 
 ## 📂 Project Structure
 ```
@@ -87,7 +85,3 @@ src/
 ├── store/        # Global state (Zustand)
 └── utils/        # Helper functions
 ```
-=======
-# contraktor
-artisan marketplace
->>>>>>> 8aa560a52658d30e4c50223e492aeb3e857539cd
