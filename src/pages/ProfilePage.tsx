@@ -37,7 +37,7 @@ export function ProfilePage() {
                 Back to Explore
             </Link>
 
-            {/* Header Profile Card */}
+
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8 mb-8">
                 <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
                     <img
@@ -77,7 +77,7 @@ export function ProfilePage() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                {/* Left Column: Bio & Form */}
+
                 <div className="space-y-8">
                     <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
                         <h3 className="text-lg font-bold text-gray-900 mb-3">About</h3>
@@ -92,7 +92,7 @@ export function ProfilePage() {
                     </div>
                 </div>
 
-                {/* Right Column: Portfolio */}
+
                 <div className="lg:col-span-2 space-y-8">
                     <div>
                         <h3 className="text-xl font-bold text-gray-900 mb-6">Recent Projects</h3>

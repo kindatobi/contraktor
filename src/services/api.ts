@@ -52,10 +52,10 @@ export const api = {
   },
 
   submitRequest: async (data: any): Promise<ApiResponse<{ success: true }>> => {
-    await delay(DELAY_MS * 1.5); // Simulate longer processing
+    await delay(DELAY_MS * 1.5);
     console.log("Submitted Request:", data);
 
-    // Simulate random failure
+
     if (Math.random() < 0.1) {
       throw new Error("Failed to submit request. Please try again.");
     }

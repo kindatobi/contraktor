@@ -1,33 +1,16 @@
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { z } from 'zod';
 import { toast } from 'sonner';
 import { api } from '../../services/api';
-
-const phoneRegex = new RegExp(
-    /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/
-);
-
-const serviceRequestSchema = z.object({
-    serviceType: z.string().min(3, "Service type must be at least 3 characters"),
-    preferredDate: z.string().refine((date) => new Date(date) > new Date(), {
-        message: "Preferred date must be in the future",
-    }),
-    description: z.string().min(10, "Please provide a detailed description (min 10 chars)"),
-    customerName: z.string().min(2, "Name is required"),
-    customerEmail: z.string().email("Invalid email address"),
-    customerPhone: z.string().regex(phoneRegex, "Invalid phone number"),
-});
-
-type ServiceRequestFormInputs = z.infer<typeof serviceRequestSchema>;
+import { serviceRequestSchema, type ServiceRequestFormInputs } from '../../lib/validators';
+import { SERVICE_REQUEST_DEFAULT_VALUES } from '../../constants';
 
 interface ServiceRequestFormProps {
     artisanId: string;
     artisanName: string;
-    onSuccess?: () => void;
 }
 
-export function ServiceRequestForm({ artisanId, artisanName, onSuccess }: ServiceRequestFormProps) {
+export function ServiceRequestForm({ artisanId, artisanName }: ServiceRequestFormProps) {
     const {
         register,
         handleSubmit,
@@ -35,6 +18,7 @@ export function ServiceRequestForm({ artisanId, artisanName, onSuccess }: Servic
         formState: { errors, isSubmitting },
     } = useForm<ServiceRequestFormInputs>({
         resolver: zodResolver(serviceRequestSchema),
+        defaultValues: SERVICE_REQUEST_DEFAULT_VALUES,
     });
 
     const onSubmit = async (data: ServiceRequestFormInputs) => {
@@ -42,7 +26,6 @@ export function ServiceRequestForm({ artisanId, artisanName, onSuccess }: Servic
             await api.submitRequest({ ...data, artisanId, artisanName });
             toast.success("Request sent successfully! The artisan will contact you soon.");
             reset();
-            onSuccess?.();
         } catch (error) {
             toast.error("Failed to submit request. Please try again.");
             console.error(error);

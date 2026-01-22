@@ -7,6 +7,7 @@ export function useArtisans(page: number, search: string, trade: string, locatio
         queryKey: ['artisans', page, search, trade, location],
         queryFn: () => api.getArtisans(page, search, trade, location),
         placeholderData: (previousData) => previousData,
+        staleTime: 30 * 1000
     });
 }
 
@@ -15,6 +16,7 @@ export function useArtisan(id: string) {
         queryKey: ['artisan', id],
         queryFn: () => api.getArtisanById(id),
         enabled: !!id,
+        staleTime: 30 * 1000
     });
 }
 
